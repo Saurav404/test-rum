@@ -810,6 +810,7 @@ LUX.customerid = "4362275101";
             if ("function" != typeof LayoutShift) return !1;
             for (var e = 0, t = 0; t < ce.length; t++) {
               var n = ce[t];
+              debugger
               "layout-shift" !== n.entryType ||
                 n.hadRecentInput ||
                 (oe.logEvent(S, [n]), (e += n.value));
