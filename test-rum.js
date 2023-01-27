@@ -185,14 +185,14 @@ LUX.customerid = "4362275101";
         beaconUrl: n(
           r,
           "beaconUrl",
-          "https://webhook.link/e5b2fddf-218b-4416-a711-0f69f2c29a22"
+          "https://webhook.link/2bcabe4e-0d39-43e6-aeb5-e4c918647aa0"
         ),
         customerid: n(r, "customerid", void 0),
         debug: n(r, "debug", !1),
         errorBeaconUrl: n(
           r,
           "errorBeaconUrl",
-          "https://webhook.link/e5b2fddf-218b-4416-a711-0f69f2c29a22"
+          "https://webhook.link/2bcabe4e-0d39-43e6-aeb5-e4c918647aa0"
         ),
         jspagelabel: n(r, "jspagelabel", void 0),
         label: n(r, "label", void 0),
