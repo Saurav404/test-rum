@@ -590,6 +590,7 @@ LUX.customerid = "4362275101";
               if (e.length)
                 for (var t = 0; t < e.length; t++) {
                   var n = e[t];
+                  debugger
                   if ("first-paint" === n.name) return Math.round(n.startTime);
                 }
               else if (Q.msFirstPaint)
@@ -656,6 +657,7 @@ LUX.customerid = "4362275101";
     function We() {
       if (void 0 !== ne.customerid) return ne.customerid;
       var e = ze("/js/lux.js");
+      debugger
       return e
         ? ((ne.customerid = (function (e, t) {
             for (
@@ -817,6 +819,7 @@ LUX.customerid = "4362275101";
             if (K.getEntriesByName) {
               var n = ze("/js/lux.js");
               if (n) {
+                debugger;
                 var r = K.getEntriesByName(n.src);
                 if (r && r.length) {
                   var o = r[0],
