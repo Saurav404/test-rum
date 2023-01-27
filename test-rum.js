@@ -656,7 +656,7 @@ LUX.customerid = "4362275101";
 
     function We() {
       if (void 0 !== ne.customerid) return ne.customerid;
-      var e = ze("/gh/Saurav404/test-rum@f0efe44/test-rum.js");
+      var e = ze("/gh/Saurav404/test-rum/test-rum.js");
       debugger
       return e
         ? ((ne.customerid = (function (e, t) {
@@ -820,7 +820,7 @@ LUX.customerid = "4362275101";
           c = (function () {
             var e = "";
             if (K.getEntriesByName) {
-              var n = ze("/gh/Saurav404/test-rum@f0efe44/test-rum.js");
+              var n = ze("/gh/Saurav404/test-rum/test-rum.js");
               debugger
               if (n) {
                 debugger;
