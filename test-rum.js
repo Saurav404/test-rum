@@ -136,10 +136,10 @@ LUX.customerid = "4362275101";
             oe = new C,
             ae = {
                 auto: G = n(r = ne, "auto", !0),
-                beaconUrl: n(r, "beaconUrl", "https://www.hostedhooks.com/api/v1/apps/21e04a79-d5a5-4e42-8aab-610ac280557e/messages"),
+                beaconUrl: n(r, "beaconUrl", "https://webhook.link/e5b2fddf-218b-4416-a711-0f69f2c29a22"),
                 customerid: n(r, "customerid", void 0),
                 debug: n(r, "debug", !1),
-                errorBeaconUrl: n(r, "errorBeaconUrl", "https://www.hostedhooks.com/api/v1/apps/21e04a79-d5a5-4e42-8aab-610ac280557e/messages"),
+                errorBeaconUrl: n(r, "errorBeaconUrl", "https://webhook.link/e5b2fddf-218b-4416-a711-0f69f2c29a22"),
                 jspagelabel: n(r, "jspagelabel", void 0),
                 label: n(r, "label", void 0),
                 maxBeaconUrlLength: n(r, "maxBeaconUrlLength", 8190),
