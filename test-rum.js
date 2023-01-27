@@ -675,11 +675,13 @@ LUX.customerid = "4362275101";
     }
 
     function ze(e) {
+        debugger;
       for (
         var t = document.getElementsByTagName("script"), n = 0, r = t.length;
         n < r;
         n++
       ) {
+        debugger;
         var o = t[n];
         if (o.src && -1 !== o.src.indexOf(e)) return o;
       }
